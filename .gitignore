@@ -2,3 +2,4 @@ in_*.txt
 metadata.json
 out_*.txt
 a.out
+.idea
