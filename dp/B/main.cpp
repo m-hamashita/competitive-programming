@@ -13,12 +13,12 @@ signed main() {
   int cost[N];
   rep(i, N) cost[i] = 100000000000;
   cost[0] = 0;
-  for (int i=0;i<N;i++){
-    for (int j=1;((j<K+1) && (i+j<N));j++){
-      cost[i+j] = min(cost[i+j], cost[i] + abs(h[i]-h[i+j]));
+  for (int i = 0; i < N; i++) {
+    for (int j = 1; ((j < K + 1) && (i + j < N)); j++) {
+      cost[i + j] = min(cost[i + j], cost[i] + abs(h[i] - h[i + j]));
     }
   }
-  cout << cost[N-1] << endl;
+  cout << cost[N - 1] << endl;
 
   return 0;
 }
