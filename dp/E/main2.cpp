@@ -15,7 +15,7 @@ signed main() {
   dp[0][0] = 0;
 
   for (int i = 0; i < N; i++) {
-    for (int j = 100000; j >= 0; j--) {
+    for (int j = 0; j < 100001; j++) {
       if (j >= v[i])
         dp[i + 1][j] = min(dp[i][j], dp[i][j - v[i]] + w[i]);
       else
