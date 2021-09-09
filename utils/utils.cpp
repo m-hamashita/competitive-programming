@@ -9,6 +9,17 @@ const int MAX = 1000;
 
 long long fac[MAX], finv[MAX], inv[MAX];
 
+long long lpow(long long x, long long y) {
+  long long ret = 1;
+  while (y) {
+    if (y & 1)
+      ret = ret * x;
+    x = x * x;
+    y >>= 1;
+  }
+  return ret;
+}
+
 long long pow_mod(long long x, long long y, long long MOD) {
   long long ret = 1;
   while (y) {
