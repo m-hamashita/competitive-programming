@@ -33,7 +33,7 @@ long long pow_mod(long long x, long long y, long long MOD) {
 
 // a^{-1} mod を計算する (フェルマーの小定理)
 // long long modinv(long long a, long long mod) {
-//     return modpow(a, mod - 2, mod);
+//     return pow_mod(a, mod - 2, mod);
 // }
 
 // 素数じゃなくても良い
