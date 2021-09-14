@@ -11,6 +11,7 @@ vector<vector<ll>> v(100005);
 bool flag[100005];
 ll length[100005];
 
+// これ dfs では？(木だから助かってる)
 void bfs(ll u, ll len) {
     if (flag[u])
         return;
