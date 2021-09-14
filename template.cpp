@@ -7,8 +7,8 @@ const long long INF = 1LL << 60;
 using namespace std;
 
 signed main() {
-  ll N;
-  cin >> N;
+    ll N;
+    cin >> N;
 
-  return 0;
+    return 0;
 }
