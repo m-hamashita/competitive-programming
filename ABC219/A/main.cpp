@@ -9,6 +9,15 @@ using namespace std;
 signed main() {
     ll N;
     cin >> N;
+    if (N >= 90) {
+        cout << "expert" << endl;
+    } else if (N >= 70) {
+        cout << 90 - N << endl;
+    } else if (N >= 40) {
+        cout << 70 - N << endl;
+    } else {
+        cout << 40 - N << endl;
+    }
 
     return 0;
 }
