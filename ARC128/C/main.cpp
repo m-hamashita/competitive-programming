@@ -17,15 +17,15 @@ signed main() {
     int A[N];
     rep(i, N) cin >> A[i];
     ll rev_ruiseki[N + 1];
-    rev_ruiseki[N]     = 0;
+    rev_ruiseki[N] = 0;
     rev_ruiseki[N - 1] = A[N - 1];
     rep(i, N - 1) {
         rev_ruiseki[N - i - 2] = rev_ruiseki[N - i - 1] + A[N - i - 2];
     }
-    long double result    = 0.0;
-    ll max_index          = 0;
+    long double result = 0.0;
+    ll max_index = 0;
     long double max_value = 0;
-    ll left               = N;
+    ll left = N;
     long double x;
     rep(i, N) {
         rep(j, left) {
@@ -41,7 +41,7 @@ signed main() {
         }
 
         bool ff = false;
-        x       = min(M, (S / (left - max_index)));
+        x = min(M, (S / (left - max_index)));
         if (M < (S / (left - max_index))) {
             ff = true;
         } else {
