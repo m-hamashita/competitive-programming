@@ -22,6 +22,7 @@ signed main() {
         dic[S[i]]     = X[i];
         rev_dic[X[i]] = S[i];
     }
+    for(int i=0;i<N)
     // rep(i, 26) {
     //     cout << dic[S[i]];
     // }
