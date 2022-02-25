@@ -1,4 +1,5 @@
 use proconio::input;
+use std::convert::TryInto;
 
 fn main() {
     input! {
