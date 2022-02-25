@@ -3,3 +3,5 @@ metadata.json
 out_*.txt
 a.out
 .idea
+Cargo.lock
+target/
