@@ -1,0 +1,4 @@
+[codestyle]
+indent_width=4
+template_file='~/work/competitive-programming/template.cpp'
+workspace_dir='~/work/competitive-programming/'
