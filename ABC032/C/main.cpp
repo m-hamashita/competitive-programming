@@ -16,8 +16,8 @@ signed main() {
         }
     }
 
-    long long right  = 0;
-    long long total  = 1;
+    long long right = 0;
+    long long total = 1;
     long long result = 0;
     for (int left = 0; left < N; left++) {
         while (right < N && total * s[right] <= K) {
