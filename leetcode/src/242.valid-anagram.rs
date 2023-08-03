@@ -5,8 +5,6 @@
  */
 
 // @lc code=start
-struct Solution;
-
 impl Solution {
     pub fn is_anagram(s: String, t: String) -> bool {
         use std::collections::HashMap;
