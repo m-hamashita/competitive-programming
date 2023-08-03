@@ -4,6 +4,7 @@
  * [217] Contains Duplicate
  */
 
+struct Solution;
 // @lc code=start
 impl Solution {
     pub fn contains_duplicate(nums: Vec<i32>) -> bool {

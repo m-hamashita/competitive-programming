@@ -58,6 +58,8 @@
  *
  */
 
+struct Solution;
+
 // @lc code=start
 impl Solution {
     pub fn is_palindrome(s: String) -> bool {

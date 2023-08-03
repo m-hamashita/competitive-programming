@@ -5,6 +5,9 @@ pub mod two_sum;
 #[path = "125.valid-palindrome.rs"]
 pub mod valid_palindrome;
 
+#[path = "20.valid-parentheses.rs"]
+pub mod valid_parentheses;
+
 #[path = "217.contains-duplicate.rs"]
 pub mod contains_duplicate;
 
