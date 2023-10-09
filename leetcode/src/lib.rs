@@ -8,6 +8,9 @@ pub mod best_time_to_buy_and_sell_stock;
 #[path = "125.valid-palindrome.rs"]
 pub mod valid_palindrome;
 
+#[path = "141.linked-list-cycle.rs"]
+pub mod linked_list_cycle;
+
 #[path = "20.valid-parentheses.rs"]
 pub mod valid_parentheses;
 
