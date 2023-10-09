@@ -11,6 +11,9 @@ pub mod valid_palindrome;
 #[path = "20.valid-parentheses.rs"]
 pub mod valid_parentheses;
 
+#[path = "206.reverse-linked-list.rs"]
+pub mod reverse_linked_list;
+
 #[path = "217.contains-duplicate.rs"]
 pub mod contains_duplicate;
 
