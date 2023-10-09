@@ -1,4 +1,3 @@
-
 #[path = "1.two-sum.rs"]
 pub mod two_sum;
 
@@ -20,3 +19,5 @@ pub mod median_of_two_sorted_arrays;
 #[path = "5.longest-palindromic-substring.rs"]
 pub mod longest_palindromic_substring;
 
+#[path = "704.binary-search.rs"]
+pub mod binary_search;
