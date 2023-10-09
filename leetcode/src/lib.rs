@@ -14,6 +14,9 @@ pub mod valid_parentheses;
 #[path = "206.reverse-linked-list.rs"]
 pub mod reverse_linked_list;
 
+#[path = "21.merge-two-sorted-lists.rs"]
+pub mod merge_two_sorted_lists;
+
 #[path = "217.contains-duplicate.rs"]
 pub mod contains_duplicate;
 
